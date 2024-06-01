@@ -1,0 +1,45 @@
+{
+  "name": "my-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://quangtran8588.github.io/my-portfolio/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "theme": "chakra-cli tokens src/utils/theme.ts",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@cyriacbr/react-split-text": "^1.0.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/alex-brush": "^5.0.20",
+    "@fontsource/montecarlo": "^5.0.20",
+    "@fontsource/poppins": "^5.0.14",
+    "@fontsource/sacramento": "^5.0.20",
+    "framer": "^2.4.1",
+    "framer-motion": "^11.1.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.23.0",
+    "react-starfield": "^1.0.3"
+  },
+  "devDependencies": {
+    "@chakra-ui/cli": "^2.4.1",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
